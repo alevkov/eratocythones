@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "eratocythones"
+version = "0.1.0"
+description = "Cythonized Eratosthenes"
+authors = ["sernyl <lex@sojourns.io>"]
+license = "GPL V2"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+cython = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
